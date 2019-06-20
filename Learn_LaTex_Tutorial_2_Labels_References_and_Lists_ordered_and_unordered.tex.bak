@@ -1,0 +1,43 @@
+\documentclass{article}
+
+\author{Cheng-Bin Jin}
+\title{An Intro to Labels, Refs and Lists in {\LaTeX}}
+
+\begin{document}
+\maketitle
+
+\section{Introduction}
+So in section \ref{list}, I will talk about lists.
+
+Note we talk about toilet paper, which is number \ref{toiler}.
+
+\section{Labels}
+
+\section{Lists\label{list}}
+
+\begin{enumerate}
+\item Toiler paper \label{toiler}
+\item Bread
+\item Mugs
+\item Butter
+\item Cream
+\end{enumerate}
+
+An unordered list:
+
+\begin{itemize}
+\item Corn
+\begin{itemize}
+\item Red corn
+\item Black corn
+\end{itemize}
+\item Maize
+\item Lamp
+\end{itemize}
+
+
+
+
+
+
+\end{document}

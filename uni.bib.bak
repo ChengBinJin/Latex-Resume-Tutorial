@@ -1,0 +1,6 @@
+@book{test,
+	author = "Smith, Luke",
+	title = "My First Book!",
+	year = "2017",
+	publisher = "Luke Publishing"
+	}
